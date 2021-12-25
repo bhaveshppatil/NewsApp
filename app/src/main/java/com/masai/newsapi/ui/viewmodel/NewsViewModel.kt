@@ -16,6 +16,7 @@ class NewsViewModel @Inject constructor(private val newsRepository: NewsReposito
 
     suspend fun getDataFromApi(
         query: String,
+//        from: String,
         key: String
     ) {
         newsRepository.getDataFromApi(query, key)

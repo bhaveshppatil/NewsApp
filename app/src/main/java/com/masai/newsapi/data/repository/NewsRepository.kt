@@ -20,6 +20,7 @@ class NewsRepository @Inject constructor(private val newsDAO: NewsDAO) {
 
     suspend fun getDataFromApi(
         query: String,
+//        from: String,
         key: String
     ) {
         response = Module.getAPIService().getNewsData(query, key)

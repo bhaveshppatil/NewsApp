@@ -13,8 +13,8 @@ interface ApiService {
     @GET("v2/everything")
     suspend fun getNewsData(
         @Query("q") query: String,
-     /*   @Query("from") from: String,
-        @Query("to") to: String,*/
+//        @Query("from") from: String,
+//        @Query("to") to: String,
         @Query("apiKey") key: String
     ): NewsResponse
 }

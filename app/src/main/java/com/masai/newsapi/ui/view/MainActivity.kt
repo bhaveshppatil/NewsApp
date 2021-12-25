@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity(), ClickListener {
                         CoroutineScope(Dispatchers.IO).launch {
                             newsViewModel.getDataFromApi(
                                 "tesla",
+//                                "2021-12-24",
                                 "3f355e979ae645aaa0e437ec430d011d"
                             )
                             runOnUiThread {
