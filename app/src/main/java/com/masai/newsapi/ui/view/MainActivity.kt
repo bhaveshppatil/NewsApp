@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), ClickListener {
                             newsViewModel.getDataFromApi(
                                 "tesla",
 //                                "2021-12-24",
-                                "3f355e979ae645aaa0e437ec430d011d"
+                                "API_Key"
                             )
                             runOnUiThread {
                                 fetchDataFromDB()
